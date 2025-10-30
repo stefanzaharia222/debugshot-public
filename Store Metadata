@@ -1,0 +1,10 @@
+# Chrome Web Store Metadata
+
+- **Category:** Developer Tools
+- **Primary language:** English (United States)
+- **Regions:** Worldwide (default)
+- **Pricing:** Free
+- **Target audience:** Developers / QA engineers
+- **Promotional assets:**
+  - Icons: assets/icon16.png, icon32.png, icon48.png, icon128.png
+  - Screenshots: capture from popup, activation flow, capture result folder (prepare at 1280×800 or larger)
