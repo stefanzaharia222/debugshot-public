@@ -1,0 +1,33 @@
+# Chrome Web Store Listing Copy
+
+## Short Description
+
+Manual, privacy-friendly debugging captures: screenshots, DOM, console, and network in one bundle.
+
+## Detailed Description
+
+DebugShot is a developer productivity tool that keeps your captures on-device. Activate it only on the tabs you choose, then collect the exact debugging evidence you need in seconds. Each capture downloads to your machine as a neatly organized folder—no cloud uploads, no background tracking.
+
+### Why DebugShot?
+- **On-demand activation** – stays idle until you turn it on for a tab.
+- **Flexible capture options** – mix screenshots, DOM snippets, console logs, and network traces.
+- **Area or full-page modes** – drag to highlight a region or capture the entire viewport.
+- **JSON + PNG output** – share structured bug reports straight from your Downloads folder.
+- **DevTools-aware** – integrates with Chrome DevTools for richer network logging when needed.
+
+### Getting Started
+1. Pin the DebugShot action icon.
+2. Open the popup and activate it on your current tab.
+3. Choose what to capture and click **Capture full tab** or **Capture area** (F10 / F9).
+4. Find the exported folder inside `Downloads/debugshot/`.
+
+### Permissions Explained
+- **activeTab & scripting** – inject helpers only after you enable a tab.
+- **downloads** – save captures locally.
+- **storage** – remember your capture preferences.
+
+DebugShot never uploads your data. Everything remains under your control.
+
+## Contact
+
+Support & privacy inquiries: **stefanzaharia222@gmail.com**
