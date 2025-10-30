@@ -1,0 +1,44 @@
+# DebugShot Privacy Policy
+
+_Last updated: October 30, 2025_
+
+DebugShot helps you capture debugging assets directly inside Chrome. We take your privacy seriously and designed the extension so that all captured data stays on your device.
+
+## Data We Collect
+
+DebugShot captures only the information you explicitly request:
+
+- Screenshots of the active tab (if selected)
+- DOM element summaries in the capture selection
+- Console messages and browser errors emitted after activation
+- Network request metadata visible to the page
+
+The extension does **not** collect or process any other personal information.
+
+## How Data Is Used
+
+- Captured data is packaged into PNG and JSON files saved in your browser's default downloads folder.
+- The data never leaves your device. DebugShot does not transmit information to remote servers or third parties.
+- Captured console and network buffers are cleared as soon as a capture completes or you deactivate the tab.
+
+## Permissions Justification
+
+- `activeTab` and `scripting`: required to inject capture helpers only after you explicitly activate the tab.
+- `downloads`: used to save the capture bundles locally on your machine.
+- `storage`: keeps your capture preferences (e.g., whether to include the DOM or console) inside Chrome storage.
+
+## Manual Activation Controls
+
+DebugShot stays inactive by default. You must turn it on per-tab using the popup. When you deactivate the tab—or navigate away—the extension removes injected listeners and stops collecting data.
+
+## Third-Party Access
+
+No third parties can access the data DebugShot captures. Everything is stored locally, and the extension has no analytics, remote logging, or cloud sync features.
+
+## Contact
+
+For privacy questions or support, email: **stefanzaharia222@gmail.com**
+
+## Changes To This Policy
+
+We may update this policy if new features require different data handling. When that happens, we will update the "Last updated" date above and document the changes in the project repository.
